@@ -1,3 +1,4 @@
+
 #include "main.h"
 
 /**
@@ -20,4 +21,9 @@ void rev_string(char *s)
 	c = 0;
 
 	while (s > t)
-
+	{
+		s--;
+		*s = n[c];
+		c++;
+	}
+}
